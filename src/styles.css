@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.flex-container {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction : column;
+}
+html {
+	font-family: Roboto;
+}
